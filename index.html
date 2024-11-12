@@ -18,7 +18,7 @@
       <!-- COLUMN 1 -->
       <div class="kanban-column" data-id="1">
         <div class="kanban-title">
-          <h2>Pendente</h2>
+          <h2>Planejamento</h2>
           <button class="add-card">
             <i class="fa-solid fa-plus"></i>
           </button>
@@ -28,7 +28,7 @@
       <!-- COLUMN 2 -->
       <div class="kanban-column" data-id="2">
         <div class="kanban-title">
-          <h2>Em front-end</h2>
+          <h2>Execução</h2>
           <button class="add-card" onclick="">
             <i class="fa-solid fa-plus"></i>
           </button>
@@ -38,7 +38,7 @@
       <!-- COLUMN 3 -->
       <div class="kanban-column" data-id="3">
         <div class="kanban-title">
-          <h2>Em back-end</h2>
+          <h2>Concluído</h2>
           <button class="add-card">
             <i class="fa-solid fa-plus"></i>
           </button>
@@ -85,13 +85,19 @@
           <!-- Responsável -->
           <div>
             <label for="cardResponsible">Responsável:</label>
-            <input type="text" id="cardResponsible" placeholder="Nome do Responsável" />
+            <input
+              type="text"
+              id="cardResponsible"
+              placeholder="Nome do Responsável"
+            />
           </div>
 
           <!-- Botões para Salvar e Excluir -->
           <div>
             <button type="submit" id="saveCardBtn">Salvar</button>
-            <button type="button" id="deleteCardBtn" style="display: none;">Excluir</button>
+            <button type="button" id="deleteCardBtn" style="display: none">
+              Excluir
+            </button>
           </div>
         </form>
       </div>
